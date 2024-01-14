@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  background-image: url(Earth\ currency.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  
+}
+.container{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 60px;
+    min-height:45vh;
+    width:40vh;
+   opacity: 90%;
+   box-Shadow:0 0 5px #404c05, 0 0 15px #404c05,
+   0 0 25px #404c05, 0 0 100px #404c05
+}
+form{
+    margin: 2rem 0 1rem 0; 
+    
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius:0.75rem
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1.3rem;
+    height: 2.7rem;
+    width: 50%;
+    padding-left:0.5rem ;
+}
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.dropDown i{
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+.selectContainer img{
+    max-width: 2rem;
+}
+.selectContainer{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   width: 6rem;
+   border-radius: 0.5rem;
+   border: 1px solid lightgray;
+}
+.selectContainer select{
+    font-size: 1rem;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0 2rem;
+    font-size: 1.2rem;
+}
+button{
+  height:2.5rem;
+  background-color: chartreuse;
+  color: black;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+#fMsg{
+   table-layout: inherit;
+}
